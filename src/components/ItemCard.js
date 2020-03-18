@@ -41,8 +41,8 @@ class ItemCard extends Component {
 	render() {
 		return (
 			<HomePageContext.Consumer>
-				{genre => {
-					const filteredGenres = genre.filter(genreList =>
+				{genres => {
+					const filteredGenres = genres.filter(genreList =>
 						this.state.info.genre_ids.includes(genreList.id)
 					);
 					const filteredGenreNames = filteredGenres.map(genres => genres.name);

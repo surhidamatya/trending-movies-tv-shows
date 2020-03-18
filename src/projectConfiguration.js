@@ -1,5 +1,5 @@
 const trendingUrl = '/trending';
-const genres = '/genre/movie/list';
+const genres = '/genre/movie/list?api_key=9626168d181bfa64fe2b0fa44150ce6b';
 
 const REACT_APP_API_URL='https://api.themoviedb.org/3';
 const REACT_APP_IMG_URL= 'https://image.tmdb.org/t/p/original';

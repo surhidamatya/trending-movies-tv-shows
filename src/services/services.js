@@ -16,7 +16,7 @@ export async function getGenres() {
 }
 
 export async function getTmdbIds(tmdbId, mediaType) {
-  const url = `${projectConfiguration.apiURL}/${mediaType}/${tmdbId}/external_ids`;
+  const url = `${projectConfiguration.apiURL}/${mediaType}/${tmdbId}/external_ids?api_key=9626168d181bfa64fe2b0fa44150ce6b`;
   const response = await http.get(url);
 
   return response;

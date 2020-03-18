@@ -12,7 +12,8 @@ class Home extends Component {
       timeWindow: 'day',
       movies: [],
       shows: [],
-      genres: []
+      genres: [],
+      isLoading: true
     }
   }
   fetchMovies = async() => {
@@ -48,16 +49,19 @@ class Home extends Component {
   }
 
   async componentDidMount() {
+    try{
     const [movies, shows, genres] = await Promise.all([
       this.fetchMovies(),
       this.fetchShows(),
       this.storeGenres()
     ]);
-    this.setState({movies: movies, shows: shows, genres: genres});
+    this.setState({movies: movies, shows: shows, genres: genres, isLoading: false});
+  }catch(error){
+    console.log("Home error", error)
+  }
   }
 
   render() {
-
     return (
 			<div className="container">
 				<HomePageContext.Provider value={this.state.genres}>
