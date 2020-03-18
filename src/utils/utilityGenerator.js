@@ -1,4 +1,5 @@
 import { getTmdbIds } from "../services/services";
+import * as constant from "../utils/constants";
 
 export function concatenate(str, params) {
   let formattedString = str;
@@ -21,7 +22,7 @@ export async function findImdbId(id, media_type) {
 
 export async function getImdbUrl(tmdbid, mediaType) {
   const imdbId = await findImdbId(tmdbid,mediaType);
-  const url = 'https://imdb.com/title/'+imdbId;
+  const url = constant.TBDB_TITLE +imdbId;
   
   return url;
 }

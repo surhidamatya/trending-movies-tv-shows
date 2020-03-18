@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import ItemColumn from './ItemColumn';
+import * as constant from "../utils/constants";
 import {getTrendingItems, getGenres} from '../services/services';
 
 export const HomePageContext = React.createContext();
@@ -9,7 +10,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      timeWindow: 'day',
+      timeWindow: constant.TIME_WINDOW,
       movies: [],
       shows: [],
       genres: [],
