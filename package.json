@@ -1,6 +1,6 @@
 {
   "name": "trending-movies-and-tv-shows",
-  "homepage": "https://surhidamatya.github.io/",
+  "homepage": "https://surhidamatya.github.io/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
