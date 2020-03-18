@@ -59,18 +59,20 @@ class ItemCard extends Component {
 									className="thumbnail"
 								/>
 							</a>
-							<div className="media-body">
-								<div className="vote">
-									{this.state.info.vote_average}
-									<span className="out-of-10">/10</span>
-								</div>
-								<div className="media-title">
+							<div className="item-body">
+
+							<div className="item-title">
 									{this.state.info.media_type === 'movie' ? (
 										<MovieTitle info={this.state.info} />
 									) : (
 										<TVShowTitle info={this.state.info} />
 									)}
 								</div>
+								<div className="vote">
+									{this.state.info.vote_average}
+									<span className="out-of-10">/10</span>
+								</div>
+								
 								<div>
 									{filteredGenreNames.map((genre, index) => (
 										<li className="genre-list" key={index}>
