@@ -1,4 +1,5 @@
 const trendingUrl = '/trending';
+const posterSize = '/w800';
 const genres = '/genre/movie/list?api_key=9626168d181bfa64fe2b0fa44150ce6b';
 
 const REACT_APP_API_URL='https://api.themoviedb.org/3';

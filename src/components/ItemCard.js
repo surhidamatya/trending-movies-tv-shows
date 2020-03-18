@@ -78,17 +78,6 @@ class ItemCard extends Component {
 										</li>
 									))}
 								</div>
-								<article className="movie-overview">
-									{this.state.info.overview.substring(0, 200)}
-									<a
-										href={this.state.imdbUrl}
-										rel="noopener noreferrer"
-										className="read-more"
-										target="_blank"
-									>
-										...
-									</a>
-								</article>
 								<div className="watch-trailer">
 									<a
 										href={this.state.youtubeUrl}

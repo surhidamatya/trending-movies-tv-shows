@@ -3,12 +3,12 @@ import React from "react";
 import {PropTypes} from 'prop-types';
 
 const MovieTitle = ({info}) => (
-  <span>{info.movieTitle}</span>
+  <span>{info.title}</span>
 );
 
 MovieTitle.propTypes = {
   info: PropTypes.shape({
-    movieTitle: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired
   })
 }
 export default MovieTitle;
