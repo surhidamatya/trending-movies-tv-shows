@@ -80,6 +80,19 @@ class ItemCard extends Component {
 										</li>
 									))}
 								</div>
+								<div className="playing-on">
+								{this.state.info.media_type === 'tv' && (
+										<a
+										href={this.state.youtubeUrl}
+										rel="noopener noreferrer"
+										target="_blank"
+									>
+										<span className="out-of-10">Playing on  </span>
+										{this.state.info.vote_average}
+									</a>
+									)}
+									
+								</div>
 								<div className="watch-trailer">
 									<a
 										href={this.state.youtubeUrl}

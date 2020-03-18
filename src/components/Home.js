@@ -67,10 +67,10 @@ class Home extends Component {
 			<div className="container">
 				<HomePageContext.Provider value={this.state.genres}>
 					{this.state.shows && (
-						<ItemColumn results={this.state.shows} title="Trending TV Shows" logo="https://www.themoviedb.org/assets/1/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg"/>
+						<ItemColumn results={this.state.shows} title={constant.TV_SHOW} logo= {constant.POWERED_BY}/>
 					)}
 					{this.state.movies && (
-						<ItemColumn results={this.state.movies} title="Trending Movies" />
+						<ItemColumn results={this.state.movies} title={constant.TITLE_MOVIE} />
 					)}
 				</HomePageContext.Provider>
 			</div>
