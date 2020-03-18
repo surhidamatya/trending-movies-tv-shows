@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trending-movies-tv-shows/static/css/main.4609c578.chunk.css",
+    "main.js": "/trending-movies-tv-shows/static/js/main.9d0b3b58.chunk.js",
+    "main.js.map": "/trending-movies-tv-shows/static/js/main.9d0b3b58.chunk.js.map",
+    "runtime-main.js": "/trending-movies-tv-shows/static/js/runtime-main.31686222.js",
+    "runtime-main.js.map": "/trending-movies-tv-shows/static/js/runtime-main.31686222.js.map",
+    "static/js/2.1810e96f.chunk.js": "/trending-movies-tv-shows/static/js/2.1810e96f.chunk.js",
+    "static/js/2.1810e96f.chunk.js.map": "/trending-movies-tv-shows/static/js/2.1810e96f.chunk.js.map",
+    "index.html": "/trending-movies-tv-shows/index.html",
+    "precache-manifest.cb317108779d55b145e9bb43dde76705.js": "/trending-movies-tv-shows/precache-manifest.cb317108779d55b145e9bb43dde76705.js",
+    "service-worker.js": "/trending-movies-tv-shows/service-worker.js",
+    "static/css/main.4609c578.chunk.css.map": "/trending-movies-tv-shows/static/css/main.4609c578.chunk.css.map",
+    "static/js/2.1810e96f.chunk.js.LICENSE.txt": "/trending-movies-tv-shows/static/js/2.1810e96f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31686222.js",
+    "static/js/2.1810e96f.chunk.js",
+    "static/css/main.4609c578.chunk.css",
+    "static/js/main.9d0b3b58.chunk.js"
+  ]
+}
